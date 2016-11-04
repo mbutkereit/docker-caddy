@@ -1,6 +1,9 @@
 0.0.0.0
+
 gzip
+
 fastcgi / php:9000
+
 browse
 
 log stdout

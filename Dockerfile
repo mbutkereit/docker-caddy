@@ -20,4 +20,4 @@ WORKDIR /srv/www/html
 COPY Caddyfile /etc/Caddyfile
 
 ENTRYPOINT ["/usr/bin/caddy"]
-CMD ["--conf", "/etc/Caddyfile", "--log", "-quic","stdout"]
+CMD ["--conf", "/etc/Caddyfile", "--log", "stdout", "-quic", "-http2"]

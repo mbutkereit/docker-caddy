@@ -1,7 +1,7 @@
 0.0.0.0
 
 gzip
-
+root /var/www/html/web
 fastcgi / php:9000
 
 browse
